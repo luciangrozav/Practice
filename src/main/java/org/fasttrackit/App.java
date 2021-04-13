@@ -22,7 +22,7 @@ public class App
 
         gdp= economy.getPrivateconsumption() + economy.getGovernmentinvestment() + economy.getGrossinvestment() + economy.getGovernmentspending() + (economy.getExports() - economy.getImports());
 
-        System.out.println("Gross Domestic Product of " + economy.getCountry() + " in the year " + economy.getYear() + " is : " + gdp + " 10^6 Euros.");
+        System.out.println("Gross Domestic Product of " + economy.getCountry() + " in the year " + economy.getYear() + " was : " + gdp + " 10^6 Euros.");
 
     }
 }
