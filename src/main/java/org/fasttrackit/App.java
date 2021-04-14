@@ -47,6 +47,13 @@ public class App
 
         Method n = new Method3();
         System.out.println(n.methoddynamic(9)); // Suprascrierea metodei methoddynamic
+        System.out.println(" ");
+
+        //typecasting
+        int z=0;
+        z = ((Method2)m).typecasting(100);
+        System.out.println(z);
+        System.out.println(" ");
 
 
     }

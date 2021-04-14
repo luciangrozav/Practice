@@ -7,4 +7,9 @@ public class Method2 extends Method{
         return a*a*a;
     }
 
+    int typecasting ( int a)
+    {
+        return a*2;
+    }
+
 }
