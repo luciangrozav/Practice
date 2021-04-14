@@ -24,5 +24,30 @@ public class App
 
         System.out.println("Gross Domestic Product of " + economy.getCountry() + " in the year " + economy.getYear() + " was : " + gdp + " 10^6 Euros.");
 
+        System.out.println(" ");
+        System.out.println(Method.operation(8, 8)); // Polimorfism static
+
+        System.out.println(" ");
+        System.out.println(Method.operation(4.2, 8.6));  // Polimorfism static- supraincarcarea metodei
+
+        System.out.println(" ");
+        System.out.println(Method.operation(11, 55, 30));  // Polimorfism static- supraincarcarea metodei
+
+        // Suprascrierea metodei- Polimorfism Runtime
+
+        System.out.println(" ");
+
+        Method k = new Method();
+        System.out.println(k.methoddynamic(9));
+        System.out.println(" ");
+
+        Method m = new Method2();
+        System.out.println(m.methoddynamic(9)); // Suprascrierea metodei methoddynamic
+        System.out.println(" ");
+
+        Method n = new Method3();
+        System.out.println(n.methoddynamic(9)); // Suprascrierea metodei methoddynamic
+
+
     }
 }
