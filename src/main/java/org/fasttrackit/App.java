@@ -51,7 +51,7 @@ public class App
 
         //typecasting
         int z=0;
-        z = ((Method2)m).typecasting(100);
+        z = ((Method2)m).typecasting(100); // metoda typecasting se afla in clasa Method2, iar obiectul m de tip Method2 are referinta stocata in clasa Method.
         System.out.println(z);
         System.out.println(" ");
 
