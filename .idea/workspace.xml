@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="135909a1-4a55-446a-8710-ad43d9705943" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Volkswagen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Method2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Method2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/fasttrackit/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/fasttrackit/App.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +66,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
@@ -82,7 +95,8 @@
       <workItem from="1617948530056" duration="6309000" />
       <workItem from="1618310768894" duration="2914000" />
       <workItem from="1618397195495" duration="2375000" />
-      <workItem from="1618401341941" duration="381000" />
+      <workItem from="1618401341941" duration="707000" />
+      <workItem from="1618485757311" duration="2029000" />
     </task>
     <task id="LOCAL-00001" summary="First practice; -&gt; super();">
       <created>1617955167692</created>
@@ -112,7 +126,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618400373888</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added typecasting;">
+      <created>1618401942082</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1618401942082</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added typecasting(2);">
+      <created>1618402030433</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1618402030433</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +151,8 @@
     <MESSAGE value="Encapsulation exercised;" />
     <MESSAGE value="Encapsulation exercised(2);" />
     <MESSAGE value="Studied Polymorphism; with method overloading - overriding" />
-    <option name="LAST_COMMIT_MESSAGE" value="Studied Polymorphism; with method overloading - overriding" />
+    <MESSAGE value="Added typecasting;" />
+    <MESSAGE value="Added typecasting(2);" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added typecasting(2);" />
   </component>
 </project>

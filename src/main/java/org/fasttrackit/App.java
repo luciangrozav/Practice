@@ -55,6 +55,8 @@ public class App
         System.out.println(z);
         System.out.println(" ");
 
+        Car masina = new Volkswagen(12500, 85);  // Clasele abstracte nu pot avea obiecte, de aceea se declara new Volkswagen() in loc de new Car(); doar referinta variabilei se salveaza in clasa Car
+        System.out.println(masina.output());
 
     }
 }
