@@ -1,6 +1,9 @@
 package org.fasttrackit;
 
-public class App 
+import java.util.ArrayList;
+import java.util.List;
+
+public class App
 {
     public static void main( String[] args )
     {
@@ -57,6 +60,29 @@ public class App
 
         Car masina = new Volkswagen(12500, 85);  // Clasele abstracte nu pot avea obiecte, de aceea se declara new Volkswagen() in loc de new Car(); doar referinta variabilei se salveaza in clasa Car
         System.out.println(masina.output());
+
+        Human human = new Human();
+
+        human.setName("Lucian");
+        human.setAge(27);
+        human.setHeight(180);
+        human.setWeight(90);
+        human.setJob("Engineer");
+        human.setNationality("Romanian");
+
+        List<Human> humans = new ArrayList<>();
+
+        humans.add(human);
+
+        for(Human human1: humans)
+            System.out.println(human1.getName()  + " " + human1.getAge() + " " + human1.getHeight() + " " + human1.getWeight()+ " " +human1.getNationality() + " " + human1.getJob() );
+
+        System.out.println(" ");
+
+        ClasaInterface clasa = new ClasaInterface();
+        clasa.display();
+        System.out.println(clasa.grow(Interfata.nr));
+
 
     }
 }
