@@ -82,6 +82,25 @@ public class App
         ClasaInterface clasa = new ClasaInterface();
         clasa.display();
         System.out.println(clasa.grow(Interfata.nr));
+        System.out.println(" ");
+
+        Cat cat = new Cat();
+        cat.name="Bobby";
+        cat.eat(10);
+        cat.run(20);
+        System.out.println(cat.name + ":");
+        cat.printAnimal();
+        System.out.println("The length of jump is: " + cat.jump(20));
+
+        System.out.println(" ");
+
+        Dog dog = new Dog();
+        dog.name= "Spike";
+        dog.eat(20);
+        dog.run(10);
+        System.out.println(dog.name + ":");
+        dog.printAnimal();
+        System.out.println("The length of jump is: " + dog.jump(30));
 
 
     }
